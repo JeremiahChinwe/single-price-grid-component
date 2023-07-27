@@ -1,0 +1,23 @@
+@tailwindcss base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e5eff5;
+    font-family: 'Karla', sans-serif;
+    min-height: 100vh;
+}
+
+@layer utilities {
+    .box-shadow-one {
+        box-shadow: 1px 3px 20px #666
+    };
+}
+
